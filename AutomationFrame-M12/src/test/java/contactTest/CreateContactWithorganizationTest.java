@@ -1,5 +1,5 @@
 package contactTest;
-
+//forked
 import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
@@ -47,6 +47,7 @@ public class CreateContactWithorganizationTest extends BaseClass{
 	 		CreateInformation cip = new CreateInformation(driver);
 			String lastname1 = cip.getCreateinfo().getText();
 			Assert.assertTrue(lastname1.contains(LASTNAME));
+			
 	}
 		}
 	
